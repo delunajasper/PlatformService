@@ -4,8 +4,10 @@
     <projectFile>PlatformService.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04bf079d-790f-4ab4-98c2-60931dcbae2b" name="Default Changelist" comment="Repo&#10;Model&#10;Dtos">
-      <change beforePath="$PROJECT_DIR$/Data/PrepDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PrepDb.cs" afterDir="false" />
+    <list default="true" id="04bf079d-790f-4ab4-98c2-60931dcbae2b" name="Default Changelist" comment="scaffolding">
+      <change afterPath="$PROJECT_DIR$/Dtos/PlatformCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/PlatformReadDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatformService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatformService/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/delun/RiderProjects/PlatformService/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/delun/RiderProjects/PlatformService/Data/PrepDb.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -26,6 +29,8 @@
       <option value="$PROJECT_DIR$/Data/PlatformRepo.cs" />
       <option value="$PROJECT_DIR$/Startup.cs" />
       <option value="$PROJECT_DIR$/Data/PrepDb.cs" />
+      <option value="$PROJECT_DIR$/Dtos/PlatformReadDto.cs" />
+      <option value="$PROJECT_DIR$/Dtos/PlatformCreateDto.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1xYd9ba1oU6cx7VEv58MhOb3c0e" />
@@ -39,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630535810730</updated>
       <workItem from="1630535812892" duration="2263000" />
-      <workItem from="1630621807724" duration="1050000" />
+      <workItem from="1630621807724" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="Repo&#10;Model&#10;Dtos">
       <created>1630622155964</created>
@@ -92,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630622155964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Data layer">
+      <created>1630623025266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630623025266</updated>
+    </task>
+    <task id="LOCAL-00003" summary="scaffolding">
+      <created>1630623052970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630623052970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +135,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Repo&#10;Model&#10;Dtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repo&#10;Model&#10;Dtos" />
+    <MESSAGE value="Data layer" />
+    <MESSAGE value="scaffolding" />
+    <option name="LAST_COMMIT_MESSAGE" value="scaffolding" />
   </component>
 </project>
