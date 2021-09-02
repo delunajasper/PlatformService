@@ -1,6 +1,6 @@
 ﻿namespace PlatformService.Data
 {
-    public class PrepDb
+     public static class PrepDb
     {
         
     }

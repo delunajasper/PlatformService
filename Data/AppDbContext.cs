@@ -1,7 +1,15 @@
-﻿namespace PlatformService.Data
+﻿using Microsoft.EntityFrameworkCore;
+using PlatformService.Model;
+
+namespace PlatformService.Data
 {
-    public class AppDbContext
+    public class AppDbContext : DbContext
     {
-        
+        public AppDbContext(DbContextOptions<AppDbContext> opt) : base(opt)
+        {
+                
+        }
+
+        public DbSet<Platform> Platforms { get; set; }
     }
 }
